@@ -34,6 +34,29 @@
   --smaller-font-size: .75rem;
 }
 
+/* Colores para iconos sociales */
+.bi-facebook {
+  color: #1877F2;
+}
+
+.bi-whatsapp {
+  color: #25D366;
+}
+
+.bi-telephone-fill {
+  color: #0088CC;
+}
+
+.bi-envelope-fill {
+  color: #EA4335;
+}
+
+/* Efecto hover opcional */
+.profile_social-link:hover i {
+  transform: scale(1.1);
+  transition: .3s;
+}
+
 @media screen and (min-width: 968px) {
   :root {
     --h2-font-size: 1.5rem;
